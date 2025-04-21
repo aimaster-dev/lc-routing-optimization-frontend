@@ -1,0 +1,120 @@
+/* Upload Component Styles */
+.upload-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px 30px;
+  background: linear-gradient(135deg, #ffffff, #f2f2f2);
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.welcome-heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.upload-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #444;
+}
+
+.instructions-container {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.toggle-btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+.csv-guidelines {
+  text-align: left;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  margin-top: 15px;
+}
+
+.csv-guidelines p {
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.csv-guidelines ul {
+  list-style-type: disc;
+  padding-left: 25px;
+  margin: 0;
+  color: #555;
+}
+
+.file-input-container {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-label {
+  display: block;
+  padding: 14px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.file-label:hover {
+  background-color: #0056b3;
+}
+
+.upload-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.upload-btn:hover {
+  background-color: #218838;
+}
+
+.status {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
+  color: #333;
+}

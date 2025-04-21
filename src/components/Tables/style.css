@@ -1,0 +1,52 @@
+/* Container for the two tables displayed side by side */
+.segments-tables-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Each table container */
+.segments-table {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styling */
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  overflow-x: auto;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #28a745;
+  color: #fff;
+  font-weight: bold;
+}
+
+.results-table tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.results-table tr:hover {
+  background-color: #eaeaea;
+}
+
+/* Optionally, add scrollbars if needed */
+.table-container {
+  overflow-x: auto;
+  overflow-y: auto;
+}

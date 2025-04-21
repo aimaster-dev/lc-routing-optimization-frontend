@@ -1,0 +1,51 @@
+.route-legend {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.route-legend h4 {
+    margin: 0 0 10px 0;
+}
+
+.route-legend-item {
+    margin-bottom: 5px;
+}
+
+.route-legend-item div {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.route-legend-item .color-box {
+    width: 20px;
+    height: 3px;
+}
+
+.route-legend-item .circle-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 16px;
+}
+
+.route-legend-item .main-route {
+    border: 2px solid #007bff;
+}
+
+.route-legend-item .landfill {
+    border: 2px solid #6c757d;
+}
+
+.route-legend-item .swing {
+    border: 2px solid #28a745;
+}
+
+.route-legend-item .drt {
+    border: 2px solid #dc3545;
+}
